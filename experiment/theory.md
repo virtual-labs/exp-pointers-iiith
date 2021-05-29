@@ -7,9 +7,11 @@ A pointer is a programming language data type which can store memory addresses o
 
 This would declare 2 integer pointers meant to store references(memory address) to variables of integer data type. Note that var_i is just a normal integer variable. Alternatively, pointers can also be declared as:
 
+
 ```
             int* pointer1_1,pointer2_i;
             int var_i=5;
+
 
 ```
 
@@ -22,14 +24,15 @@ The & operator can be used with any variable to get its memory address. So, writ
 would assign the memory address of var_i to pointer1_i.
 
 <img src="images/pointers.png">
-Figure explaining the working of the statement: a=&b;
+
+Figure explaining the working of the statement: a=&b; 
 
 The * operator is used to access the values stored at a given address. So, writing
 
 ```
             printf("%d\n",*pointer1_i);
 
-````
+```
 
 would print 5 on the console. This process of accessing the value stored at a given position is known as dereferencing a pointer. Similarly, to store references to character or float variables one can define char or float type pointers.
 
