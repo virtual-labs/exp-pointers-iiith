@@ -23,9 +23,9 @@ The & operator can be used with any variable to get its memory address. So, writ
 
 would assign the memory address of var_i to pointer1_i.
 
-<img src="images/pointers.png">
+Figure explaining the working of the statement: a=&b;
 
-Figure explaining the working of the statement: a=&b; 
+<img src="images/pointers.png">
 
 The * operator is used to access the values stored at a given address. So, writing
 
