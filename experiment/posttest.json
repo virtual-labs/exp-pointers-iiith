@@ -7,6 +7,7 @@
             "d":"All of the above"
           },
 "correctAnswer":"a"},
+
 {"question":"2. If a variable is a pointer to a structure, then which of the following operator is used to access data members of the structure through the pointer variable?:",
 "answers":{
             "a":".",
@@ -14,5 +15,13 @@
             "c":"*",
             "d":"->"
           },
-"correctAnswer":"d"} 
+"correctAnswer":"d"},
+
+{"question":"3.The name of the array is a pointer to the _________ element of the array. ",
+"answers":{
+            "a":"first",
+            "b":"second",
+          },
+"correctAnswer":"a"}  
+
 ]
