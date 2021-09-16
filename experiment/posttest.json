@@ -20,7 +20,7 @@
 {"question":"3.The name of the array is a pointer to the _________ element of the array. ",
 "answers":{
             "a":"first",
-            "b":"second",
+            "b":"second"
           },
 "correctAnswer":"a"}  
 
