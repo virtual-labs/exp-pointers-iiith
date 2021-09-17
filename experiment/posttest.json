@@ -1,18 +1,27 @@
 [
-{"question":"This is a Sample Question 1?",
+{"question":"1. Pointer is a :",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"A keyword used to create variables",
+            "b":"A variable that stores address of an instruction",
+            "c":"A variable that stores address of other variable",
+            "d":"All of the above"
           },
 "correctAnswer":"a"},
-{"question":"This is a Sample Question 2?",
+
+{"question":"2. If a variable is a pointer to a structure, then which of the following operator is used to access data members of the structure through the pointer variable?:",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":".",
+            "b":"&",
+            "c":"*",
+            "d":"->"
           },
-"correctAnswer":"c"} 
+"correctAnswer":"d"},
+
+{"question":"3.The name of the array is a pointer to the _________ element of the array. ",
+"answers":{
+            "a":"first",
+            "b":"second"
+          },
+"correctAnswer":"a"}  
+
 ]

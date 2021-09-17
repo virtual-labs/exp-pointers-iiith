@@ -1,18 +1,16 @@
 [
-{"question":"This is a Sample Question 1?",
+{"question":"1. What would be the equivalent pointer expression for referring the array element a[i][j][k][l]",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"((((a+i)+j)+k)+l)",
+            "b":" *(*(*(*(a+i)+j)+k)+l)",
+            "c":"(((a+i)+j)+k+l)",
+            "d":"((a+i)+j+k+l)"
           },
-"correctAnswer":"a"},
-{"question":"This is a Sample Question 2?",
+"correctAnswer":"b"},
+{"question":"2. NULL pointer points to the 0th memory address:",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"True",
+            "b":"False"
           },
-"correctAnswer":"c"} 
+"correctAnswer":"a"} 
 ]
