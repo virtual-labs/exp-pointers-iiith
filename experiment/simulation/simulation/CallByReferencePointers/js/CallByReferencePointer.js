@@ -20,13 +20,13 @@ window.view = {
 	explanationCBR6: 'Function call. Local integer type pointer variables Pa and Pb get assigned the address of A and B respectively.',
 	explanationCBR7: 'A local integer type variable \'temp\' is declared and the value at address in Pa is assigned to it i.e. A\'s value is stored in temp.',
 	explanationCBR8: 'Value at address in Pa is changed to the value at address in Pb i.e. B\'s value is now stored in A.',
-	explanationCBR9: 'Value at addrss in Pb is changed to the value of temp i.e. temp is now stored in B.',
+	explanationCBR9: 'Value at address in Pb is changed to the value of temp i.e. temp is now stored in B.',
 	explanationCBR10: 'Function returns.',
 	explanationCBR11: 'The New Value stored in variable A is 9 which is displayed in the output.',
 	explanationCBR12: 'The New Value stored in variable B is 5 which is displayed in the output.',
 	explanationCBR13: 'Program Execution Complete',
 	outputCBR1: 'Value of A is 5',
-	outputCBR2: 'Address of B is 9',
+	outputCBR2: 'Value of B is 9',
 	outputCBR3: 'Value of A after swapping is 9',
 	outputCBR4: 'Value of B after swapping is 5',
 	// addClickEvent: add EventListener to other methods.
@@ -179,14 +179,16 @@ window.view = {
 	},
 	// swapValueBetweenAddress60And56: swaps value in memory map between address 60 and 56.
 	swapValueBetweenAddress60And56: function () {
-		if (this.nextSiblingElement.id === 'codeContentCBR6') {
+		if (this.nextSiblingElement.id === 'codeContentCBR14') {
 			this.setInnerHtml('60byte4', '9');
 			this.setInnerHtml('56byte4', '5');
 		}
-		else if (this.previousSiblingElement.id === 'codeContentCBR5') {
-			this.setInnerHtml('60byte4', '5');
-			this.setInnerHtml('56byte4', '9');
-		}
+		else if (
+      this.previousSiblingElement.id === "codeContentCBR12"
+    ) {
+      this.setInnerHtml("60byte4", "5");
+      this.setInnerHtml("56byte4", "9");
+    }
 	},
 	// resetTable: calls methods that erase values from memory map.
 	resetTable: function () {
@@ -273,7 +275,7 @@ window.view = {
 		else if (this.nextSiblingElement.id === 'codeContentCBR6') {
 			this.codeExecutionWithColour();
 			this.eraseStringFromElement('outputText', 'explanationText', this.explanationCBR5);
-			this.swapValueBetweenAddress60And56();	
+			// this.swapValueBetweenAddress60And56();	
 		}
 		else if (this.nextSiblingElement.id === 'codeContentCBR7') {
 			this.codeExecutionWithColourAndId('codeContentCBR11');
@@ -286,12 +288,15 @@ window.view = {
 			this.setValueAtAddress32();
 		}
 		else if (this.nextSiblingElement.id === 'codeContentCBR13') {
-			this.codeExecutionWithColour();
-			this.setString('explanationText', this.explanationCBR8);
-		}
+      this.codeExecutionWithColour();
+      this.setString("explanationText", this.explanationCBR8);
+      this.setInnerHtml("60byte4", "9"); // Original value before swap
+    }
 		else if (this.nextSiblingElement.id === 'codeContentCBR14')	{
 			this.codeExecutionWithColour();
 			this.setString('explanationText', this.explanationCBR9);
+			this.swapValueBetweenAddress60And56();	
+
 		}
 		else if (this.nextSiblingElement.id === 'codeContentCBR15')	{
 			this.codeExecutionWithColour();
@@ -351,16 +356,21 @@ window.view = {
 			this.eraseValueAtAddress32();
 		}
 		else if (this.previousSiblingElement.id === 'codeContentCBR12') {
-			this.reverseCodeExecutionWithColour();
-			this.setString('explanationText', this.explanationCBR7);
-		}
-		else if (this.previousSiblingElement.id === 'codeContentCBR13') {
-			this.reverseCodeExecutionWithColour();
-			this.setString('explanationText', this.explanationCBR8);
+      this.reverseCodeExecutionWithColour();
+      this.setString("explanationText", this.explanationCBR7);
+      this.setInnerHtml("60byte4", "5"); // Original value before swap
+    }
+	else if (this.previousSiblingElement.id === 'codeContentCBR13') {
+		this.reverseCodeExecutionWithColour();
+		this.setString('explanationText', this.explanationCBR8);
+		this.setInnerHtml("60byte4", "9"); // Original value before swap
+		this.setInnerHtml("56byte4", "9"); // Original value before swap
+			// this.swapValueBetweenAddress60And56();	
 		}
 		else if (this.previousSiblingElement.id === 'codeContentCBR14') {
 			this.reverseCodeExecutionWithColour();
 			this.setString('explanationText', this.explanationCBR9);
+			// this.swapValueBetweenAddress60And56();	
 			this.setValueAtAddress40And36();
 			this.setValueAtAddress32();
 		}
