@@ -1,0 +1,16 @@
+[
+{"question":"1. What would be the equivalent pointer expression for referring the array element a[i][j][k][l]",
+"answers":{
+            "a":"((((a+i)+j)+k)+l)",
+            "b":" *(*(*(*(a+i)+j)+k)+l)",
+            "c":"(((a+i)+j)+k+l)",
+            "d":"((a+i)+j+k+l)"
+          },
+"correctAnswer":"b"},
+{"question":"2. NULL pointer points to the 0th memory address:",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+"correctAnswer":"a"} 
+]
