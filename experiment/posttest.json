@@ -6,7 +6,7 @@
             "c":"A variable that stores address of other variable",
             "d":"All of the above"
           },
-"correctAnswer":"a"},
+"correctAnswer":"c"},
 
 {"question":"2. If a variable is a pointer to a structure, then which of the following operator is used to access data members of the structure through the pointer variable?:",
 "answers":{
