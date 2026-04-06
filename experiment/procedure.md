@@ -1,16 +1,16 @@
 **Call By Value**
 
-1.  Press start to start the experiment.
-2.  Press next to see the execution of the code.
+1.  Press Start to start the experiment.
+2.  Press Next to see the execution of the code.
 3.  Relavant line in the code is shown here.
 4.  The output of the code is shown in the right.
 
 **Call By Reference**
 
-1.  Press start to start the experiment.
-2.  Press next to see the execution of the code.
-3.  The output of the code is shown in the right.
-4.  You can stop the code using stop button.
+1.  Press Start to start the experiment.
+2.  Press Next to see the execution of the code.
+3.  Relavant line in the code is shown here.
+4.  The output of the code is shown in the right.
 
 #### Procedure
 
