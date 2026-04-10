@@ -1,0 +1,3 @@
+When a variable is declared, a certain number of bytes are allocated to it depending on its datatype (e.g., an int takes 4 bytes, a char takes 1 byte). Arrays allow allocation of larger blocks of memory. Each byte in memory has a unique address. A pointer is a datatype that can store the address of a memory location, allowing it to reference data contained in other variables. Pointers are useful for many applications, such as allowing functions to modify data directly (without making a copy) and enabling the creation of linked data structures.
+
+Aim of this experiment is to understand the concept of pointers in C programming, their declaration, usage, and applications in referencing and manipulating memory addresses.

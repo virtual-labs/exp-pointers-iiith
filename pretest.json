@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "questions": [
+    {
+      "question": "1. What would be the equivalent pointer expression for referring the array element a[i][j][k][l]?",
+      "answers": {
+        "a": "((((a+i)+j)+k)+l)",
+        "b": "*(*(*(*(a+i)+j)+k)+l)",
+        "c": "(((a+i)+j)+k+l)",
+        "d": "((a+i)+j+k+l)"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect, this does not dereference at each dimension.",
+        "b": "Correct. This is the correct pointer expression for a 4D array element.",
+        "c": "Incorrect, this is missing dereferencing at each level.",
+        "d": "Incorrect, this is missing dereferencing and proper grouping."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "2. NULL pointer points to the 0th memory address:",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. In C, a NULL pointer is defined as a pointer with value 0, which means it points to the 0th memory address.",
+        "b": "Incorrect, in C, a NULL pointer is defined as a pointer with value 0."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which operator is used to get the address of a variable in C?",
+      "answers": {
+        "a": "*",
+        "b": "&",
+        "c": "->",
+        "d": "."
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect, * is used for dereferencing a pointer.",
+        "b": "Correct. & is the address-of operator in C.",
+        "c": "Incorrect, -> is used to access members of a structure through a pointer.",
+        "d": "Incorrect, . is used to access members of a structure directly."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which of the following is NOT a valid use of pointers?",
+      "answers": {
+        "a": "Dynamic memory allocation",
+        "b": "Accessing array elements",
+        "c": "Storing function addresses",
+        "d": "Directly storing string literals"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect, pointers are used for dynamic memory allocation.",
+        "b": "Incorrect, pointers can be used to access array elements.",
+        "c": "Incorrect, pointers can store function addresses.",
+        "d": "Correct. String literals are stored as constant character arrays, not directly in pointers."
+      },
+      "difficulty": "intermediate"
+    }
+  ]
+}

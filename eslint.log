@@ -1,0 +1,25 @@
+
+/home/runner/work/exp-pointers-iiith/exp-pointers-iiith/experiment/simulation/simulation/CallByReferencePointers/js/CallByReferencePointer.js
+   39:49  warning  'view' is not defined                    no-undef
+   40:48  warning  'view' is not defined                    no-undef
+   41:48  warning  'view' is not defined                    no-undef
+  201:3   warning  'currentSiblingElement' is not defined   no-undef
+  202:3   warning  'nextSiblingElement' is not defined      no-undef
+  203:3   warning  'previousSiblingElement' is not defined  no-undef
+  307:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  308:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-pointers-iiith/exp-pointers-iiith/experiment/simulation/simulation/CallByValuePointers/js/basicPointers.js
+   38:49  warning  'view' is not defined                    no-undef
+   39:48  warning  'view' is not defined                    no-undef
+   40:48  warning  'view' is not defined                    no-undef
+   73:4   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+   77:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+   78:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+   79:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  144:3   warning  'currentSiblingElement' is not defined   no-undef
+  145:3   warning  'nextSiblingElement' is not defined      no-undef
+  146:3   warning  'previousSiblingElement' is not defined  no-undef
+
+✖ 18 problems (0 errors, 18 warnings)
+
