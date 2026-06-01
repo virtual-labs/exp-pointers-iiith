@@ -1,0 +1,5 @@
+1. [Pointers in C - GeeksforGeeks](https://www.geeksforgeeks.org/c/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)
+2. [cppreference - Pointers (C language)](https://en.cppreference.com/w/c/language/pointer)
+3. [cppreference - Dynamic Memory Management (malloc, calloc, realloc, free)](https://en.cppreference.com/w/c/memory)
+4. [The C Programming Language (2nd Edition) - Kernighan and Ritchie](https://en.wikipedia.org/wiki/The_C_Programming_Language)
+5. [Pointer (Computer Programming) - Wikipedia](<https://en.wikipedia.org/wiki/Pointer_(computer_programming)>)
